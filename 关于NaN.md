@@ -1,6 +1,10 @@
 #### NaN是什么？
 NaN是一个全局对象的属性
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6300cbe75944aa1fef5ecd29807fb41cbae1bb00
 #### typeof的结果是？
     typeof NaN； //number
 
