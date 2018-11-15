@@ -16,3 +16,22 @@ git log时 每次commit都有一个唯一ID 我们可以通过git reset --hard I
 
 git rm 文件名  用于删除文件，如果是错误删除且之前有commit 可以用git reset --hard commitID进行回滚
 
+
+#####分支管理
+
+首先创建dev分支，然后切换到dev分支
+
+git checkout -b dev【git checkout命令加上-b参数表示创建并切换】相当于以下两条命令：
+
+git branch dev + git checkout dev 【新建分支dev + 切换分支到dev】
+
+然后用git branch 查看当前分支，该命令会列出所有分支，当前分支前面会标一个 * 号
+
+合并dev分支到master分支上：git merge dev
+
+删除分支：git branch -d dev
+
+
+
+
+

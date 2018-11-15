@@ -23,4 +23,4 @@
 	Object instanceof Function  // true
 	Function instanceof Object  // true
 
-我们都知道instanceof是会沿着原型链追溯上去的，那么对于这四个判断式，结合上图就不难理解了
+我们都知道instanceof是会沿着原型链（_proto_）追溯上去的，那么对于这四个判断式，结合上图就不难理解了
