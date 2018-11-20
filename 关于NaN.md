@@ -14,7 +14,7 @@ NaN是一个全局对象的属性
     isNaN(123)  //false
 这结果有点让人 “匪夷所思” 究其因，原来是在判断参数类型时，isNaN()函数会先对参数进行Number()转换，对于非Number型的参数，通过转换后肯定都是NaN，所以输出的结果都是true。
 
-那要怎么判断NaN呢？【来自《深入理解JavaScript》】
+ **那要怎么判断NaN呢？**【来自《深入理解JavaScript》】
 
 前面已经提到，isNaN()函数在判断前会进行Number()转换，所以我们先判断变量类型是否为Number类型
 

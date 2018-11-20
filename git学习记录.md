@@ -16,6 +16,7 @@ git log时 每次commit都有一个唯一ID 我们可以通过git reset --hard I
 
 git rm 文件名  用于删除文件，如果是错误删除且之前有commit 可以用git reset --hard commitID进行回滚
 
+git remote -v 查看远程仓库地址
 
 #####分支管理
 
